@@ -1,6 +1,5 @@
 
 //Budget Controller//
-/*
 let budgetController = (function(){
   
 })();
@@ -24,6 +23,8 @@ let controller = (function(budgetCtrl, UICtrl){
         // 5. Display the budget on the UI
     });
 
-})(budgetController, UIController);
 
-*/
+    document.addEventListener('keypress', function(event){
+        console.log(event);
+    });
+})(budgetController, UIController);
